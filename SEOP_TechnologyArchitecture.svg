@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" width="1600" height="1100" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <style>
+      .layer { font-size: 13px; font-weight: 700; fill: #ffffff; }
+      .item { font-size: 10.5px; fill: #1e293b; }
+      .item-b { font-size: 10.5px; fill: #475569; }
+      .title { font-size: 22px; font-weight: 800; fill: #1e1b4b; }
+      .sub { font-size: 12px; fill: #475569; }
+    </style>
+  </defs>
+  <rect width="1600" height="1100" fill="#ffffff"/>
+  <text x="40" y="45" class="title">SEOP Technology Stack</text>
+  <text x="40" y="68" class="sub">Polyglot, best-of-breed, no vendor lock-in — integrated through standards and open APIs</text>
+
+  <!-- Sources -->
+  <rect x="40" y="100" width="1520" height="90" rx="6" fill="#f1f5f9" stroke="#94a3b8"/>
+  <text x="55" y="125" class="item" font-weight="700" fill="#1e1b4b">Data Sources</text>
+  <text x="55" y="148" class="item">Relational databases (PostgreSQL, MySQL, Oracle, SQL Server, SAP HANA)</text>
+  <text x="55" y="166" class="item">Semi-structured: JSON · XML · CSV · Parquet · YAML</text>
+  <text x="55" y="184" class="item">Documents: PDF · DOCX · PPTX · HTML · Scanned images (OCR) · Knowledge graphs (RDF, property graphs)</text>
+
+  <!-- Ingestion -->
+  <rect x="40" y="205" width="1520" height="100" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="55" y="230" class="layer" fill="#1e40af">Ingestion &amp; Parsing</text>
+  <text x="55" y="255" class="item">LlamaParse · Unstructured.io · Apache Tika · PyMuPDF · pdfplumber · Camelot</text>
+  <text x="55" y="275" class="item">Tesseract OCR · Azure Document Intelligence · Debezium (CDC) · Kafka Connect · Airbyte · Singer</text>
+  <text x="55" y="295" class="item">JDBC / ODBC adapters · REST / GraphQL connectors · S3 / GCS / ADLS connectors</text>
+
+  <!-- Processing & LLM -->
+  <rect x="40" y="320" width="750" height="190" rx="6" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.5"/>
+  <text x="55" y="345" class="layer" fill="#6d28d9">Processing · NLP · LLM</text>
+  <text x="55" y="370" class="item">spaCy · GLiNER · Hugging Face Transformers · sentence-transformers</text>
+  <text x="55" y="392" class="item">LLMs: OpenAI GPT-4o · Anthropic Claude 3.5 · Google Gemini 2.5</text>
+  <text x="55" y="414" class="item">Self-hosted: Llama 3 · Mistral · Qwen</text>
+  <text x="55" y="436" class="item">Embeddings: text-embedding-3-large · BGE-M3 · Cohere Embed v3</text>
+  <text x="55" y="458" class="item">Vector search: FAISS · Qdrant · Weaviate · pgvector</text>
+  <text x="55" y="480" class="item">Clustering: HDBSCAN · UMAP · scikit-learn</text>
+
+  <!-- Ontology Engineering -->
+  <rect x="810" y="320" width="750" height="190" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+  <text x="825" y="345" class="layer" fill="#047857">Ontology Engineering &amp; Validation</text>
+  <text x="825" y="370" class="item">OWLready2 · RDFLib · Apache Jena · OWL API · ROBOT</text>
+  <text x="825" y="392" class="item">Reasoners: HermiT · Pellet · ELK · Openllet</text>
+  <text x="825" y="414" class="item">Validation: pyshacl · ShEx.js · OOPS! · OntoClean</text>
+  <text x="825" y="436" class="item">Mapping: r2rml-parser · d2rq · morph-kgc (RML) · Direct Mapping</text>
+  <text x="825" y="458" class="item">Serialization: Turtle · RDF/XML · OWL Manchester · JSON-LD</text>
+  <text x="825" y="480" class="item">Standards: BFO · DOLCE · ISO/IEC 21838 · ISO 29002 · Schema.org · SKOS · PROV-O</text>
+
+  <!-- Storage & Query -->
+  <rect x="40" y="530" width="750" height="140" rx="6" fill="#fff7ed" stroke="#ea580c" stroke-width="1.5"/>
+  <text x="55" y="555" class="layer" fill="#c2410c">Storage · Query · Graph</text>
+  <text x="55" y="580" class="item">Triple stores: Neo4j · GraphDB · Stardog · Jena TDB2 · Blazegraph · Virtuoso</text>
+  <text x="55" y="602" class="item">SPARQL 1.1 endpoints · GraphQL (Strawberry) · REST / OpenAPI</text>
+  <text x="55" y="624" class="item">PostgreSQL (metadata, provenance event log) · ClickHouse (analytics) · DuckDB (ad-hoc)</text>
+  <text x="55" y="646" class="item">Object storage: S3 / GCS / ADLS (raw data, model artifacts, scenario library)</text>
+
+  <!-- Statistical Rigor -->
+  <rect x="810" y="530" width="750" height="140" rx="6" fill="#fdf2f8" stroke="#be123c" stroke-width="1.5"/>
+  <text x="825" y="555" class="layer" fill="#9f1239">Statistical Rigor &amp; Evaluation</text>
+  <text x="825" y="580" class="item">SciPy · NumPy · pandas · scikit-posthocs (Nemenyi) · statsmodels</text>
+  <text x="825" y="602" class="item">Bootstrap CI (10,000 samples) · Friedman test · critical-difference diagrams (Matplotlib)</text>
+  <text x="825" y="624" class="item">BURR benchmark harness (pytest + Hydra) · scenario runner · score matrix exporter</text>
+  <text x="825" y="646" class="item">Dual-metric engine (lexical F1 + mapping F1) · divergence detector</text>
+
+  <!-- Orchestration & APIs -->
+  <rect x="40" y="690" width="1520" height="100" rx="6" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="55" y="715" class="layer" fill="#4338ca">Orchestration · APIs · Frontend</text>
+  <text x="55" y="740" class="item">Orchestration: LangGraph · LangChain · Prefect · Apache Airflow · Temporal</text>
+  <text x="55" y="762" class="item">APIs: FastAPI · gRPC · Pydantic · GraphQL (Strawberry) · Webhooks · Kafka events</text>
+  <text x="55" y="784" class="item">Frontend: Next.js · React · Tailwind · Cytoscape.js (graph viz) · Monaco editor (SPARQL)</text>
+
+  <!-- Security & Identity -->
+  <rect x="40" y="810" width="750" height="120" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="55" y="835" class="layer" fill="#b91c1c">Security · Identity · Governance</text>
+  <text x="55" y="860" class="item">Keycloak · Auth0 · OAuth2 / OIDC · OPA (Open Policy Agent)</text>
+  <text x="55" y="882" class="item">HashiCorp Vault (secrets) · Presidio (PII redaction) · Trivy · Falco · SPIFFE</text>
+  <text x="55" y="904" class="item">RBAC: row/column/attribute-level · JIT access · MFA · audit logging (OpenTelemetry)</text>
+  <text x="55" y="926" class="item">Compliance: SOC 2 · ISO 27001 · GDPR · HIPAA · CMMI-5 evidence auto-collection</text>
+
+  <!-- Deployment & Ops -->
+  <rect x="810" y="810" width="750" height="120" rx="6" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="825" y="835" class="layer" fill="#15803d">Deployment · Ops · Observability</text>
+  <text x="825" y="860" class="item">Docker · Kubernetes · Helm · Terraform · ArgoCD · GitHub Actions · GitLab CI · Jenkins</text>
+  <text x="825" y="882" class="item">Observability: OpenTelemetry · Prometheus · Grafana · Jaeger · LangSmith · LangFuse</text>
+  <text x="825" y="904" class="item">Provenance: PROV-O · Git LFS · DVC · SemVer · PostgreSQL event log · Kafka</text>
+  <text x="825" y="926" class="item">MLOps: MLflow · Weights &amp; Biases · DVC · model registry</text>
+
+  <text x="40" y="980" class="sub" font-size="11">Standards-first integration: every component connects through W3C standards (RDF, OWL, SPARQL, SHACL, PROV-O, R2RML) and open APIs.</text>
+  <text x="40" y="1005" class="sub" font-size="11">No proprietary lock-in: swap LLM providers, triple stores, or orchestrators without rewriting the pipeline.</text>
+  <text x="40" y="1030" class="sub" font-size="11">All components are production-proven in enterprise knowledge-graph and semantic-platform deployments.</text>
+  <text x="40" y="1065" class="sub" font-size="10" fill="#94a3b8">SEOP · Seed to Ontology Pipeline · Technology Stack v1.0</text>
+</svg>

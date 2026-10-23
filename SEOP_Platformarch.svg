@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1200" width="1700" height="1200" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <style>
+      .title { font-size: 22px; font-weight: 800; fill: #1e1b4b; }
+      .sub { font-size: 12px; fill: #475569; }
+      .lane-h { font-size: 13px; font-weight: 700; fill: #ffffff; }
+      .comp-h { font-size: 11px; font-weight: 700; fill: #1e293b; }
+      .comp-t { font-size: 9.5px; fill: #475569; }
+      .foot { font-size: 9.5px; fill: #64748b; }
+    </style>
+  </defs>
+  <rect width="1700" height="1200" fill="#ffffff"/>
+  <text x="30" y="40" class="title">SEOP Platform Architecture</text>
+  <text x="30" y="62" class="sub">Seven pipeline layers · Cross-cutting services · Data foundation · BURR evaluation · CMMI-5 process integration</text>
+
+  <!-- LEFT: Pipeline -->
+  <rect x="30" y="90" width="1050" height="980" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="50" y="118" class="comp-h" font-size="14">Pipeline (7 Layers)</text>
+
+  <!-- L0 -->
+  <rect x="50" y="135" width="1010" height="70" rx="6" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="65" y="155" class="comp-h">L0 · Seed Studio (M01)</text>
+  <text x="65" y="172" class="comp-t">Seed contract · CQs · Scope · Upper-ontology commitment · Versioned registry · Human approval</text>
+  <text x="65" y="189" class="comp-t">Output: immutable seed ID referenced by all downstream layers</text>
+
+  <!-- L1 -->
+  <rect x="50" y="215" width="1010" height="80" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="65" y="235" class="comp-h">L1 · Ingestion &amp; Context (M15 · M02)</text>
+  <text x="65" y="252" class="comp-t">Multimodal ingestion · Real-time + batch · Schema introspection · BURR signals (normalization, FK, N:M, entropy, prompt-length)</text>
+  <text x="65" y="269" class="comp-t">Simulation requirement analysis · Draft CQs · Provenance per chunk · DQ quarantine (M16)</text>
+  <text x="65" y="286" class="comp-t">Output: structured seed candidates + routing signals</text>
+
+  <!-- L2 -->
+  <rect x="50" y="305" width="1010" height="80" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+  <text x="65" y="325" class="comp-h">L2 · Seed Extraction (M03 · M04 · M05)</text>
+  <text x="65" y="342" class="comp-t">NER · RE · GLiNER · LLM prompts · Candidate classes, properties, instances · Provenance + confidence</text>
+  <text x="65" y="359" class="comp-t">Statistical grounding (DB columns, API payloads, ranges) · Hallucination rejection · Disambiguation &amp; canonicalization</text>
+  <text x="65" y="376" class="comp-t">Output: grounded, canonical seed candidates</text>
+
+  <!-- L3 -->
+  <rect x="50" y="395" width="1010" height="90" rx="6" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.5"/>
+  <text x="65" y="415" class="comp-h">L3 · Synthesis (M06 · M07 · M08 · M41 · M44)</text>
+  <text x="65" y="432" class="comp-t">Upper ontology alignment (BFO/DOLCE) · Domain synthesis · Restrictions · Disjointness · Decision chain per axiom</text>
+  <text x="65" y="449" class="comp-t">Prompt Strategy Engine (4 tiers) · Mapping Format Generator (R2RML / D2RQ / RML / Direct)</text>
+  <text x="65" y="466" class="comp-t">Serialization: Turtle, RDF/XML, OWL Manchester, SHACL/ShEx drafts</text>
+  <text x="65" y="483" class="comp-t">Output: candidate TBox + mappings</text>
+
+  <!-- L4 -->
+  <rect x="50" y="495" width="1010" height="90" rx="6" fill="#fff7ed" stroke="#ea580c" stroke-width="1.5"/>
+  <text x="65" y="515" class="comp-h">L4 · Validation (M09 · M10 · M12)</text>
+  <text x="65" y="532" class="comp-t">Syntactic · Structural (SHACL/ShEx) · Logical (HermiT/Pellet/ELK) · Quality (OOPS!/OntoClean)</text>
+  <text x="65" y="549" class="comp-t">Standards conformance (14+ vocabularies, ISO 21838/29002) · Human Review Gate · Dual review</text>
+  <text x="65" y="566" class="comp-t">Output: validated TBox + validation report + human decisions</text>
+
+  <!-- L4.5 -->
+  <rect x="50" y="595" width="1010" height="70" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+  <text x="65" y="615" class="comp-h">L4.5 · ABox &amp; CQ Testing (M11)</text>
+  <text x="65" y="632" class="comp-t">Instance extraction · Entity resolution · SPARQL CQ execution · Coverage &amp; gap report</text>
+  <text x="65" y="649" class="comp-t">Output: populated knowledge graph + functional proof via CQ pass rate</text>
+
+  <!-- L5 -->
+  <rect x="50" y="675" width="1010" height="80" rx="6" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="65" y="695" class="comp-h">L5 · Evolution (M13 · M14)</text>
+  <text x="65" y="712" class="comp-t">Simulation deployment (DT / ABM) · Error monitoring · LLM patch proposals · Impact analysis</text>
+  <text x="65" y="729" class="comp-t">Regression testing (BURR) · Human approval · Versioned release · Rollback · Continuous learning loop</text>
+  <text x="65" y="746" class="comp-t">Output: evolved ontology version + patch audit trail</text>
+
+  <!-- Feedback -->
+  <path d="M 50 720 L 30 720 L 30 165 L 50 165" fill="none" stroke="#0d9488" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="10" y="450" fill="#0d9488" font-size="9" font-weight="700" transform="rotate(-90 10 450)">Feedback Loop</text>
+
+  <!-- RIGHT: Cross-cutting -->
+  <rect x="1100" y="90" width="570" height="980" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="1120" y="118" class="comp-h" font-size="14">Cross-Cutting Services</text>
+
+  <!-- Data Foundation -->
+  <rect x="1120" y="135" width="530" height="190" rx="6" fill="#ede9fe" stroke="#7c3aed"/>
+  <text x="1135" y="158" class="comp-h" fill="#5b21b6">Data Foundation (M15–M20)</text>
+  <text x="1135" y="180" class="comp-t">M15 Ingestion · M16 Quality · M17 Dictionary · M18 Lifecycle</text>
+  <text x="1135" y="198" class="comp-t">M19 Governance · M20 Metadata &amp; Ontology</text>
+  <text x="1135" y="220" class="comp-t">BURR signals: normalization, FK, N:M, entropy, naming drift</text>
+  <text x="1135" y="238" class="comp-t">DQ gates · Canonical naming normalizer · Lineage</text>
+  <text x="1135" y="256" class="comp-t">Approved terms → M17 → M40 lexical scoring</text>
+  <text x="1135" y="274" class="comp-t">Metadata catalog → M20 → M39 benchmark artifacts</text>
+  <text x="1135" y="292" class="comp-t">CMMI-5: business glossary at Level 5 includes ontology structures</text>
+
+  <!-- Enterprise Foundation -->
+  <rect x="1120" y="340" width="530" height="170" rx="6" fill="#e2e8f0" stroke="#475569"/>
+  <text x="1135" y="363" class="comp-h" fill="#1e293b">Enterprise Foundation (M26–M31)</text>
+  <text x="1135" y="385" class="comp-t">M26 RBAC &amp; IAM · M27 Provenance &amp; Audit · M28 Registry &amp; Versioning</text>
+  <text x="1135" y="403" class="comp-t">M29 Evaluation Harness · M30 Security &amp; Compliance · M31 LLM Orchestrator</text>
+  <text x="1135" y="425" class="comp-t">Provenance: PROV-O decision chain per element · prompt tier · model · reviewer</text>
+  <text x="1135" y="443" class="comp-t">Registry: SemVer · diff · rollback · BURR scores archived per version</text>
+  <text x="1135" y="461" class="comp-t">Security: SOC 2 · ISO 27001 · GDPR · HIPAA · PII redaction</text>
+  <text x="1135" y="479" class="comp-t">LLM Orchestrator: prompt versioning · cost control · fewshot injection</text>
+
+  <!-- BURR Evaluation -->
+  <rect x="1120" y="525" width="530" height="190" rx="6" fill="#fdf2f8" stroke="#be123c"/>
+  <text x="1135" y="548" class="comp-h" fill="#9f1239">BURR Evaluation Suite (M39–M46)</text>
+  <text x="1135" y="570" class="comp-t">M39 Benchmark Harness · M40 Dual-Metric Engine · M41 Prompt Strategy</text>
+  <text x="1135" y="588" class="comp-t">M42 Model Routing · M43 Hybrid Ensemble · M44 Mapping Format</text>
+  <text x="1135" y="606" class="comp-t">M45 Scenario Library · M46 Statistical Rigor Service</text>
+  <text x="1135" y="628" class="comp-t">Dual metrics: lexical F1 + mapping F1 per element (C/R/A)</text>
+  <text x="1135" y="646" class="comp-t">Hallucination detection: high lexical / low mapping</text>
+  <text x="1135" y="664" class="comp-t">Bootstrap CI · Nemenyi · CD diagrams · significance gate</text>
+  <text x="1135" y="682" class="comp-t">R2RML default · D2RQ · RML · Direct Mapping</text>
+  <text x="1135" y="700" class="comp-t">Regression gate for M14 patch approval</text>
+
+  <!-- CMMI-5 -->
+  <rect x="1120" y="730" width="530" height="170" rx="6" fill="#fee2e2" stroke="#7f1d1d"/>
+  <text x="1135" y="753" class="comp-h" fill="#7f1d1d">CMMI-5 Process Areas (M32–M38)</text>
+  <text x="1135" y="775" class="comp-t">M32 OPP · M33 QPM · M34 CAR · M35 DAR</text>
+  <text x="1135" y="793" class="comp-t">M36 CM · M37 PPQA · M38 MA</text>
+  <text x="1135" y="815" class="comp-t">MA (M38): BURR metric stream is primary measurement source</text>
+  <text x="1135" y="833" class="comp-t">QPM (M33): SPC control charts on BURR F1</text>
+  <text x="1135" y="851" class="comp-t">CAR (M34): root cause on BURR score drops</text>
+  <text x="1135" y="869" class="comp-t">DAR (M35): formal model/prompt promotion decisions</text>
+  <text x="1135" y="887" class="comp-t">CM (M36): scenarios and mappings are baselines</text>
+
+  <!-- Consumers -->
+  <rect x="1120" y="915" width="530" height="140" rx="6" fill="#f1f5f9" stroke="#94a3b8"/>
+  <text x="1135" y="938" class="comp-h">Enterprise Consumers</text>
+  <text x="1135" y="960" class="comp-t">Agentic AI runtime: SPARQL / GraphQL · ontology-driven tool selection</text>
+  <text x="1135" y="978" class="comp-t">Digital Twin platform: semantic simulation · KPI drift monitoring</text>
+  <text x="1135" y="996" class="comp-t">BI &amp; Analytics: dashboards · BURR scorecards · statistical reports</text>
+  <text x="1135" y="1014" class="comp-t">External APIs: SPARQL 1.1 · GraphQL · REST · webhooks · Kafka</text>
+  <text x="1135" y="1032" class="comp-t">Standards-conformant exports: R2RML / D2RQ / RML</text>
+  <text x="1135" y="1050" class="comp-t">RBAC enforced at gateway (M26)</text>
+
+  <!-- Bottom -->
+  <rect x="30" y="1090" width="1640" height="80" rx="6" fill="#1e1b4b"/>
+  <text x="50" y="1115" fill="#ffffff" font-size="12" font-weight="700">Standards · Compliance · Provenance</text>
+  <text x="50" y="1135" fill="#cbd5e1" font-size="10">BFO · DOLCE · ISO/IEC 21838 · ISO 29002 · R2RML · D2RQ · RML · Schema.org · DCAT · DCTERMS · SKOS · PROV-O · GeoSPARQL · WGS84 · SSN · SOSA · SAREF · FIBO</text>
+  <text x="50" y="1153" fill="#cbd5e1" font-size="10">CMMI Level 5 (Continuous Representation) · SOC 2 · ISO 27001 · GDPR · HIPAA · SPARQL 1.1 · OWL 2 · SHACL · ShEx · 100% provenance coverage</text>
+  <text x="1670" y="1153" text-anchor="end" fill="#94a3b8" font-size="9">SEOP · Platform Architecture v1.0</text>
+</svg>

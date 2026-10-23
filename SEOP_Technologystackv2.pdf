@@ -1,0 +1,983 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2755905511811534 841.8897637795276978]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 12710
+>>
+stream
+0.5670000000000001 w
+0 G
+q
+2.8346456692913389 0. 0. -2.8346456692913389 0. 841.8897637795276978 cm
+q
+1. 0. 0. 1. 5. 79.75 cm
+1. w
+0. g
+q
+1. 0. 0. 1. 0. 0. cm
+0. 0. 200. 137.5 re
+W
+n
+q
+q
+1. g
+0.125 0. 0. 0.125 0. 0. cm
+0. 0. m
+1600. 0. l
+1600. 1100. l
+0. 1100. l
+h
+f
+Q
+q
+q
+BT
+/F9 22 Tf
+25.2999999999999972 TL
+0.118 0.106 0.294 rg
+0.125 0. 0. -0.125 5. 5.625 Tm
+(SEOP Technology Stack) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.278 0.333 0.412 rg
+0.125 0. 0. -0.125 5. 8.5 Tm
+(Polyglot, best-of-breed, no vendor lock-in — integrated through standards and open APIs) Tj
+ET
+Q
+Q
+q
+0.95 0.96 0.98 rg
+0.58 0.64 0.72 RG
+0.125 0. 0. 0.125 0. 0. cm
+46. 100. m
+1554. 100. l
+1557.3137084989848518 100. 1560. 102.6862915010152335 1560. 106. c
+1560. 184. l
+1560. 187.3137084989847665 1556.6862915010151482 190. 1554. 190. c
+46. 190. l
+42.6862915010152406 190. 40. 186.6862915010152335 40. 184. c
+40. 106. l
+40. 102.6862915010152335 43.3137084989847594 100. 46. 100. c
+h
+B
+Q
+q
+q
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 15.625 Tm
+(Data Sources) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 18.5 Tm
+(Relational databases \(PostgreSQL, MySQL, Oracle, SQL Server, SAP HANA\)) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 20.75 Tm
+(Semi-structured: JSON · XML · CSV · Parquet · YAML) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 23. Tm
+(Documents: PDF · DOCX · PPTX · HTML · Scanned images \(OCR\) · Knowledge graphs \(RDF, property graphs\)) Tj
+ET
+Q
+Q
+q
+0.94 0.96 1. rg
+1.5 w
+0.15 0.39 0.92 RG
+0.125 0. 0. 0.125 0. 0. cm
+46. 205. m
+1554. 205. l
+1557.3137084989848518 205. 1560. 207.6862915010152335 1560. 211. c
+1560. 299. l
+1560. 302.3137084989847381 1556.6862915010151482 305. 1554. 305. c
+46. 305. l
+42.6862915010152406 305. 40. 301.6862915010152619 40. 299. c
+40. 211. l
+40. 207.6862915010152335 43.3137084989847594 205. 46. 205. c
+h
+B
+Q
+q
+q
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+1. g
+0.125 0. 0. -0.125 6.875 28.75 Tm
+(Ingestion & Parsing) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 31.875 Tm
+(LlamaParse · Unstructured.io · Apache Tika · PyMuPDF · pdfplumber · Camelot) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 34.375 Tm
+(Tesseract OCR · Azure Document Intelligence · Debezium \(CDC\) · Kafka Connect · Airbyte · Singer) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 36.875 Tm
+(JDBC / ODBC adapters · REST / GraphQL connectors · S3 / GCS / ADLS connectors) Tj
+ET
+Q
+Q
+q
+0.96 0.95 1. rg
+1.5 w
+0.55 0.36 0.96 RG
+0.125 0. 0. 0.125 0. 0. cm
+46. 320. m
+784. 320. l
+787.3137084989847381 320. 790. 322.6862915010152619 790. 326. c
+790. 504. l
+790. 507.3137084989847381 786.6862915010152619 510. 784. 510. c
+46. 510. l
+42.6862915010152406 510. 40. 506.6862915010152619 40. 504. c
+40. 326. l
+40. 322.6862915010152619 43.3137084989847594 320. 46. 320. c
+h
+B
+Q
+q
+q
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+1. g
+0.125 0. 0. -0.125 6.875 43.125 Tm
+(Processing · NLP · LLM) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 46.25 Tm
+(spaCy · GLiNER · Hugging Face Transformers · sentence-transformers) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 49. Tm
+(LLMs: OpenAI GPT-4o · Anthropic Claude 3.5 · Google Gemini 2.5) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 51.75 Tm
+(Self-hosted: Llama 3 · Mistral · Qwen) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 54.5 Tm
+(Embeddings: text-embedding-3-large · BGE-M3 · Cohere Embed v3) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 57.25 Tm
+(Vector search: FAISS · Qdrant · Weaviate · pgvector) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 60. Tm
+(Clustering: HDBSCAN · UMAP · scikit-learn) Tj
+ET
+Q
+Q
+q
+0.93 0.99 0.96 rg
+1.5 w
+0.02 0.59 0.41 RG
+0.125 0. 0. 0.125 0. 0. cm
+816. 320. m
+1554. 320. l
+1557.3137084989848518 320. 1560. 322.6862915010152619 1560. 326. c
+1560. 504. l
+1560. 507.3137084989847381 1556.6862915010151482 510. 1554. 510. c
+816. 510. l
+812.6862915010152619 510. 810. 506.6862915010152619 810. 504. c
+810. 326. l
+810. 322.6862915010152619 813.3137084989847381 320. 816. 320. c
+h
+B
+Q
+q
+q
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+1. g
+0.125 0. 0. -0.125 103.125 43.125 Tm
+(Ontology Engineering & Validation) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 46.25 Tm
+(OWLready2 · RDFLib · Apache Jena · OWL API · ROBOT) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 49. Tm
+(Reasoners: HermiT · Pellet · ELK · Openllet) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 51.75 Tm
+(Validation: pyshacl · ShEx.js · OOPS! · OntoClean) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 54.5 Tm
+(Mapping: r2rml-parser · d2rq · morph-kgc \(RML\) · Direct Mapping) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 57.25 Tm
+(Serialization: Turtle · RDF/XML · OWL Manchester · JSON-LD) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 60. Tm
+(Standards: BFO · DOLCE · ISO/IEC 21838 · ISO 29002 · Schema.org · SKOS · PROV-O) Tj
+ET
+Q
+Q
+q
+1. 0.97 0.93 rg
+1.5 w
+0.92 0.35 0.05 RG
+0.125 0. 0. 0.125 0. 0. cm
+46. 530. m
+784. 530. l
+787.3137084989847381 530. 790. 532.6862915010152619 790. 536. c
+790. 664. l
+790. 667.3137084989847381 786.6862915010152619 670. 784. 670. c
+46. 670. l
+42.6862915010152406 670. 40. 666.6862915010152619 40. 664. c
+40. 536. l
+40. 532.6862915010152619 43.3137084989847594 530. 46. 530. c
+h
+B
+Q
+q
+q
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+1. g
+0.125 0. 0. -0.125 6.875 69.375 Tm
+(Storage · Query · Graph) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 72.5 Tm
+(Triple stores: Neo4j · GraphDB · Stardog · Jena TDB2 · Blazegraph · Virtuoso) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 75.25 Tm
+(SPARQL 1.1 endpoints · GraphQL \(Strawberry\) · REST / OpenAPI) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 78. Tm
+(PostgreSQL \(metadata, provenance event log\) · ClickHouse \(analytics\) · DuckDB \(ad-hoc\)) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 80.75 Tm
+(Object storage: S3 / GCS / ADLS \(raw data, model artifacts, scenario library\)) Tj
+ET
+Q
+Q
+q
+0.99 0.95 0.97 rg
+1.5 w
+0.75 0.07 0.24 RG
+0.125 0. 0. 0.125 0. 0. cm
+816. 530. m
+1554. 530. l
+1557.3137084989848518 530. 1560. 532.6862915010152619 1560. 536. c
+1560. 664. l
+1560. 667.3137084989847381 1556.6862915010151482 670. 1554. 670. c
+816. 670. l
+812.6862915010152619 670. 810. 666.6862915010152619 810. 664. c
+810. 536. l
+810. 532.6862915010152619 813.3137084989847381 530. 816. 530. c
+h
+B
+Q
+q
+q
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+1. g
+0.125 0. 0. -0.125 103.125 69.375 Tm
+(Statistical Rigor & Evaluation) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 72.5 Tm
+(SciPy · NumPy · pandas · scikit-posthocs \(Nemenyi\) · statsmodels) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 75.25 Tm
+(Bootstrap CI \(10,000 samples\) · Friedman test · critical-difference diagrams \(Matplotlib\)) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 78. Tm
+(BURR benchmark harness \(pytest + Hydra\) · scenario runner · score matrix exporter) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 80.75 Tm
+(Dual-metric engine \(lexical F1 + mapping F1\) · divergence detector) Tj
+ET
+Q
+Q
+q
+0.93 0.95 1. rg
+1.5 w
+0.39 0.4 0.95 RG
+0.125 0. 0. 0.125 0. 0. cm
+46. 690. m
+1554. 690. l
+1557.3137084989848518 690. 1560. 692.6862915010152619 1560. 696. c
+1560. 784. l
+1560. 787.3137084989847381 1556.6862915010151482 790. 1554. 790. c
+46. 790. l
+42.6862915010152406 790. 40. 786.6862915010152619 40. 784. c
+40. 696. l
+40. 692.6862915010152619 43.3137084989847594 690. 46. 690. c
+h
+B
+Q
+q
+q
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+1. g
+0.125 0. 0. -0.125 6.875 89.375 Tm
+(Orchestration · APIs · Frontend) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 92.5 Tm
+(Orchestration: LangGraph · LangChain · Prefect · Apache Airflow · Temporal) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 95.25 Tm
+(APIs: FastAPI · gRPC · Pydantic · GraphQL \(Strawberry\) · Webhooks · Kafka events) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 98. Tm
+(Frontend: Next.js · React · Tailwind · Cytoscape.js \(graph viz\) · Monaco editor \(SPARQL\)) Tj
+ET
+Q
+Q
+q
+1. 0.95 0.95 rg
+1.5 w
+0.86 0.15 0.15 RG
+0.125 0. 0. 0.125 0. 0. cm
+46. 810. m
+784. 810. l
+787.3137084989847381 810. 790. 812.6862915010152619 790. 816. c
+790. 924. l
+790. 927.3137084989847381 786.6862915010152619 930. 784. 930. c
+46. 930. l
+42.6862915010152406 930. 40. 926.6862915010152619 40. 924. c
+40. 816. l
+40. 812.6862915010152619 43.3137084989847594 810. 46. 810. c
+h
+B
+Q
+q
+q
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+1. g
+0.125 0. 0. -0.125 6.875 104.375 Tm
+(Security · Identity · Governance) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 107.5 Tm
+(Keycloak · Auth0 · OAuth2 / OIDC · OPA \(Open Policy Agent\)) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 110.25 Tm
+(HashiCorp Vault \(secrets\) · Presidio \(PII redaction\) · Trivy · Falco · SPIFFE) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 113. Tm
+(RBAC: row/column/attribute-level · JIT access · MFA · audit logging \(OpenTelemetry\)) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 6.875 115.75 Tm
+(Compliance: SOC 2 · ISO 27001 · GDPR · HIPAA · CMMI-5 evidence auto-collection) Tj
+ET
+Q
+Q
+q
+0.94 0.99 0.96 rg
+1.5 w
+0.09 0.64 0.29 RG
+0.125 0. 0. 0.125 0. 0. cm
+816. 810. m
+1554. 810. l
+1557.3137084989848518 810. 1560. 812.6862915010152619 1560. 816. c
+1560. 924. l
+1560. 927.3137084989847381 1556.6862915010151482 930. 1554. 930. c
+816. 930. l
+812.6862915010152619 930. 810. 926.6862915010152619 810. 924. c
+810. 816. l
+810. 812.6862915010152619 813.3137084989847381 810. 816. 810. c
+h
+B
+Q
+q
+q
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+1. g
+0.125 0. 0. -0.125 103.125 104.375 Tm
+(Deployment · Ops · Observability) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 107.5 Tm
+(Docker · Kubernetes · Helm · Terraform · ArgoCD · GitHub Actions · GitLab CI · Jenkins) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 110.25 Tm
+(Observability: OpenTelemetry · Prometheus · Grafana · Jaeger · LangSmith · LangFuse) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 113. Tm
+(Provenance: PROV-O · Git LFS · DVC · SemVer · PostgreSQL event log · Kafka) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.118 0.161 0.231 rg
+0.125 0. 0. -0.125 103.125 115.75 Tm
+(MLOps: MLflow · Weights & Biases · DVC · model registry) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.278 0.333 0.412 rg
+0.125 0. 0. -0.125 5. 122.5 Tm
+(Standards-first integration: every component connects through W3C standards \(RDF, OWL, SPARQL, SHACL, PROV-O, R2RML\) and open APIs.) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.278 0.333 0.412 rg
+0.125 0. 0. -0.125 5. 125.625 Tm
+(No proprietary lock-in: swap LLM providers, triple stores, or orchestrators without rewriting the pipeline.) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.278 0.333 0.412 rg
+0.125 0. 0. -0.125 5. 128.75 Tm
+(All components are production-proven in enterprise knowledge-graph and semantic-platform deployments.) Tj
+ET
+Q
+Q
+q
+q
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.278 0.333 0.412 rg
+0.125 0. 0. -0.125 5. 133.125 Tm
+(SEOP · Seed to Ontology Pipeline · Technology Stack v1.0) Tj
+ET
+Q
+Q
+Q
+Q
+Q
+Q
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20261022204640-04'00')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000012915 00000 n 
+0000014732 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000012972 00000 n 
+0000013097 00000 n 
+0000013227 00000 n 
+0000013360 00000 n 
+0000013497 00000 n 
+0000013620 00000 n 
+0000013749 00000 n 
+0000013881 00000 n 
+0000014017 00000 n 
+0000014145 00000 n 
+0000014272 00000 n 
+0000014401 00000 n 
+0000014534 00000 n 
+0000014636 00000 n 
+0000014980 00000 n 
+0000015066 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <E84F7A0AD4B96718DDDFA136918286AD> <E84F7A0AD4B96718DDDFA136918286AD> ]
+>>
+startxref
+15170
+%%EOF
